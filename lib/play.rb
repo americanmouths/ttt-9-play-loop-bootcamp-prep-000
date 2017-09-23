@@ -35,10 +35,10 @@ def turn(board)
   end
 end
 
-turns = 0
+counter = 0
 def play(board)
-while turns <= 9
+while counter <= 9
   turn(board)
-  turns += 1
+  counter += 1
 end
 end
